@@ -19,7 +19,7 @@ const HEADINGS =  'http://localhost:8000/api/v1/headings/';
 
 /* API Call */
 
-function fetchHeadings() {
+export function fetchHeadings() {
   return dispatch => {
     const config = { 
       method: 'GET',

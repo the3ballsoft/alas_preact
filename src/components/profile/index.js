@@ -60,9 +60,9 @@ export default class Profile extends Component {
   getHeadings(nextPage){
     const config = { 
       method: 'GET',
-      headers: new Headers({
-        Authorization : `Token cfea63bc1832c02e823a98c0db269d1e69548df2`
-      }),
+      //headers: new Headers({
+        //Authorization : `Token cfea63bc1832c02e823a98c0db269d1e69548df2`
+      //}),
       mode: 'cors'
     };
 

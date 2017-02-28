@@ -20,9 +20,9 @@ function init(){
     root
   )
 
-  store.dispatch(fetchHeadings()).then(() =>
-    console.log(store.getState())
-  );
+  //store.dispatch(fetchHeadings()).then(() =>
+    //console.log(store.getState())
+  //);
 }
 
 init();
