@@ -1,0 +1,41 @@
+@import '~style/helpers';
+
+.profile {
+	padding: 56px 20px;
+	min-height: 100%;
+	width: 100%;
+	background: #EEE;
+}
+
+.redtext {
+    color: red;
+}
+
+.table {
+    width: 100%;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12), 0 1px 2px 0 rgba(0,0,0,.24);
+    margin-top: 10px;
+    background-color: white;
+
+    th {
+        height: 35px;
+        text-align: justify;
+    }
+    th, td {
+        padding: 5px 10px;
+        border-bottom: 1px solid #ddd;
+    }
+    tbody {
+        tr {
+            font-size: 13px;
+            .short {
+                text-align: center;
+                padding: 0;
+                width: 70px;
+            }
+            &:hover {
+                background-color: #FAFAFA;
+            }
+        }
+    }
+}
